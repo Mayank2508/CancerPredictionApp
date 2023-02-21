@@ -29,7 +29,7 @@ def cancer_detection(input_data):
     if (prediction[0]== 0):
         return "The person doesnot have Lung Cancer"
     else:
-        return "The person suffers from Lung Cancer"
+        return "The person may be suffering from Lung Cancer"
         
 def cancer_image(img_file_buffer): 
     resnet50_model = load_model("finalmodel-ResNet50.hdf5")
