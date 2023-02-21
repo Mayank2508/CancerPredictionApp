@@ -2,9 +2,9 @@ name: tf
 channels:
   - defaults
 dependencies:
-  - keras=2.10.0=py39haa95532_0
-  - numpy=1.23.5=py39h3b20f71_0
-  - tensorflow=2.10.0=mkl_py39ha510bab_0
+  - keras=2.10.0
+  - numpy=1.23.5
+  - tensorflow=2.10.0
   - pip:
     - pillow==9.4.0
     - streamlit==1.17.0
