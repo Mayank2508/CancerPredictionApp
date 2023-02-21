@@ -2,9 +2,13 @@ name: tf
 channels:
   - defaults
 dependencies:
+  - pip=22.3.1
   - keras=2.10.0
   - numpy=1.23.5
   - tensorflow=2.10.0
+  - scipy=1.9.3
   - pip:
     - pillow==9.4.0
     - streamlit==1.17.0
+    - scikit-learn==1.2.1
+
